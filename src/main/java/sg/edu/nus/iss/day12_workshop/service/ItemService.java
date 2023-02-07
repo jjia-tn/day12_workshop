@@ -14,6 +14,10 @@ public class ItemService {
     @Autowired
     ItemRepo itmRepo;
 
+    // public ItemService() {
+    //     itmRepo = new ItemRepo();
+    // }
+
     public List<Item> retrieveItemList() {
         return itmRepo.getCartItems();
         
